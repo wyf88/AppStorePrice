@@ -1,0 +1,60 @@
+name: Job
+
+on:
+  release:
+    types: [published]
+  push:
+    tags:
+      - 'v*'
+  #  branches:
+  #    - master
+  schedule:
+    - cron: '*/30 * * * *'
+  watch:
+    types: [started]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id # 自己点的 start
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      # from: https://github.com/actions/setup-node
+      - name: 设置Node.js
+        uses: actions/setup-node@master
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: 缓存
+        uses: actions/cache@v1
+        id: cache-dependencies
+        with:
+          path: node_modules
+          key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
+
+      - name: 4. 安装插件
+        if: steps.cache-dependencies.outputs.cache-hit != 'true'
+        run: |
+          export TZ='Asia/Shanghai'
+          yarn install
+
+      - name: Waking #读取站点信息
+        run: |
+          node ./src/index.js
+
+      - name: Commit #更新日志到GitHub仓库
+        run: |
+          git config --global user.email i@xiaokang.me
+          git config --global user.name XiaoKang
+          git add .
+          git commit -m "更新了!" -a
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
