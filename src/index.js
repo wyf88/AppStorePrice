@@ -53,6 +53,8 @@ async function getApp (list) {
                 data: `text=您监控的App价格发生了变化哦！&desp=${content}`
               }).then(result => {
                 console.log(result.data);
+              }).catch(err => {
+                console.log("发送通知失败！", err);
               })
               fs.writeFile('price.json', JSON.stringify(result), (err) => {
               })
