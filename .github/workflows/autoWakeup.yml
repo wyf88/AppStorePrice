@@ -52,9 +52,5 @@ jobs:
           git config --global user.email i@xiaokang.me
           git config --global user.name XiaoKang
           git add .
-          git commit -m "更新了!" -a
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          git commit -m "更新了!"
+          git push
