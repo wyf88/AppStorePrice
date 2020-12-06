@@ -6,3 +6,5 @@
 
 如果你要使用请参考：https://www.antmoe.com/posts/77e27eac/index.html
 
+## 关于
+**此版本已废弃，请查看最新版：[小康的Appstore监控](https://appstore.xiaokang.me/#/)**
