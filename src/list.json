@@ -1,20 +1,5 @@
 [
   {
-    "id": 402380914,
-    "country": "hk",
-    "name": "欧路词典mac"
-  },
-  {
-    "id": 393670998,
-    "country": "hk",
-    "name": "欧路词典"
-  },
-  {
-    "id": 1067198688,
-    "country": "hk",
-    "name": "彩云天气"
-  },
-  {
     "id": 777310222,
     "country": "hk",
     "name": "GoodReader"
@@ -23,16 +8,6 @@
     "id": 557405467,
     "country": "hk",
     "name": "Net Analyzer"
-  },
-  {
-    "id": 494803304,
-    "country": "hk",
-    "name": "Wifi Explorer"
-  },
-  {
-    "id": 411680127,
-    "country": "hk",
-    "name": "Wifi Scanner"
   },
   {
     "id": 956033107,
@@ -53,5 +28,40 @@
     "id": 892279069,
     "country": "hk",
     "name": "Star Walk 2"
+  },
+  {
+    "id": 393670998,
+    "country": "hk",
+    "name": "欧路词典"
+  },
+  {
+    "id": 1067198688,
+    "country": "hk",
+    "name": "彩云天气"
+  },
+  {
+    "id": 768160271,
+    "country": "hk",
+    "name": "航旅纵横"
+  },
+  {
+    "id": 1319191852,
+    "country": "hk",
+    "name": "熊猫吃短信"
+  }，
+  {
+    "id": 402380914,
+    "country": "hk",
+    "name": "欧路词典mac"
+  },
+  {
+    "id": 494803304,
+    "country": "hk",
+    "name": "Wifi Explorer"
+  },
+  {
+    "id": 411680127,
+    "country": "hk",
+    "name": "Wifi Scanner"
   }
 ]
