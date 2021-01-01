@@ -1,11 +1,13 @@
-- 【 Eudic 欧路词典 增强版 】 ==> 158
-- 【 欧路英语词典 Eudic 增强版 】 ==> 48
-- 【 彩雲天氣Pro 】 ==> 118
 - 【 GoodReader PDF Editor & Viewer 】 ==> 48
 - 【 Network Analyzer Pro 】 ==> 28
-- 【 WiFi Explorer 】 ==> 158
-- 【 WiFi Scanner 】 ==> 158
 - 【 MathStudio 】 ==> 158
 - 【 PCalc 】 ==> 78
 - 【 計算器 + : 科學計算器 + 貨幣 換算器 】 ==> 15
 - 【 Star Walk 2 - 天文館 AR 望遠鏡軟件 】 ==> 23
+- 【 欧路英语词典 Eudic 增强版 】 ==> 48
+- 【 彩雲天氣Pro 】 ==> 118
+- 【 航旅纵横PRO-官方航班动态、手机值机、机票 】 ==> 8
+- 【 熊猫吃短信 - 垃圾短信过滤 】 ==> 8
+- 【 Eudic 欧路词典 增强版 】 ==> 158
+- 【 WiFi Explorer 】 ==> 158
+- 【 WiFi Scanner 】 ==> 158
