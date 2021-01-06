@@ -9,4 +9,5 @@
 - 【 航旅纵横PRO-官方航班动态、手机值机、机票 】 ==> 8
 - 【 Eudic 欧路词典 增强版 】 ==> 158
 - 【 WiFi Explorer 】 ==> 158
+- 【 WiFi Explorer Lite 】 ==> 15
 - 【 WiFi Scanner 】 ==> 158
